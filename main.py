@@ -7,17 +7,12 @@ from kivy.uix.textinput import TextInput
 class LoginScreen(GridLayout):
     def __init__(self, **kwargs):
         super(LoginScreen, self).__init__(**kwargs)
-        self.cols = 2
-        self.add_widget(Label(text="Username:"))
-        self.username = TextInput(multiline=False)
-        self.add_widget(self.username)
-        self.add_widget(Label(text="Password:"))
-        self.password = TextInput(multiline=False, password=True)
-        self.add_widget(self.password)
-
-        self.add_widget(Label(text="Two Factor Auth:"))
-        self.tfa = TextInput(multiline=False)
-        self.add_widget(self.tfa)
+        self.cols = 3
+        self.add_widget(Label(text="Я"))
+		
+        self.add_widget(Label(text="Люблю"))
+		
+        self.add_widget(Label(text="Лисичку"))
 		
 class SimpleKivy(App):
     def build(self):
