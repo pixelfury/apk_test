@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Plyer GPS example
+title = Secret message to foxxxy
 
 # (str) Package name
-package.name = gpsexample
+package.name = secretMSG
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = org.secretMSG
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -52,7 +52,7 @@ fullscreen = 0
 #
 
 # (list) Permissions
-android.permissions = INTERNET,ACCESS_FINE_LOCATION,ACCESS_COARSE_LOCATION
+#android.permissions = INTERNET,ACCESS_FINE_LOCATION,ACCESS_COARSE_LOCATION
 
 # (int) Android API to use
 #android.api = 14
